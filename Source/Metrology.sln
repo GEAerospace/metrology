@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metrology", "Metrology\Metrology.csproj", "{E89543CD-45EA-43B6-94EC-879098AA0C41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metrology.Test", "Metrology.Test\Metrology.Test.csproj", "{A21E7895-96CC-4FA9-BC55-E45C3AF4704B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E89543CD-45EA-43B6-94EC-879098AA0C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E89543CD-45EA-43B6-94EC-879098AA0C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E89543CD-45EA-43B6-94EC-879098AA0C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E89543CD-45EA-43B6-94EC-879098AA0C41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A21E7895-96CC-4FA9-BC55-E45C3AF4704B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A21E7895-96CC-4FA9-BC55-E45C3AF4704B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A21E7895-96CC-4FA9-BC55-E45C3AF4704B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A21E7895-96CC-4FA9-BC55-E45C3AF4704B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53807E3D-504C-448B-9546-C9B5B4E73358}
+	EndGlobalSection
+EndGlobal

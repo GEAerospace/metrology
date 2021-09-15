@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\Versioning.targets" />
+  
+  <PropertyGroup>
+    <Company>GE Aviation Systems LLC</Company>
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <TargetFrameworks>net40;net45;net461;netstandard2.0</TargetFrameworks>
+    <RootNamespace>GEAviation.Metrology</RootNamespace>
+    <AssemblyName>GEAviation.Metrology</AssemblyName>
+  
+    <GeneratePackageOnBuild Condition="'$(Configuration)'=='Release'">true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <PackageId>GEAviation.Metrology</PackageId>
+    <Authors>$(Company)</Authors>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Description>
+      Metrology is a .NET Library intended to provide functionality that allows a user to
+      associate units of measure with a quantity and perform mathematic operations and conversions
+      without having to manually track units along the way.
+    </Description>
+    <PackageTags>Metrology, library, units, measurement</PackageTags>
+    <NoPackageAnalysis>true</NoPackageAnalysis>
+  </PropertyGroup>
+</Project>
